@@ -94,6 +94,21 @@ export const PORTFOLIO_DATA = {
     },
   ],
   projects: [
+    // First project
+    {
+      title: "Real-Time Bus Tracking System",
+      date: "Aug 2025",
+      subtitle: "SIH 2026 Web Application",
+      repo: "manvendra47/SIH-2025",
+      link: "https://bus-tracking-system-final.vercel.app/",
+      description:
+        "Developed a real-time bus tracking system with live GPS updates and route visualization.",
+      features: [
+        "Used Firebase Realtime Database to handle concurrent location updates with low latency.",
+      ],
+      techStack: ["JavaScript", "Firebase", "OpenStreetMap"],
+    },
+    // Second project
     {
       title: "Password Generator Web App",
       date: "May 2026",
@@ -108,6 +123,7 @@ export const PORTFOLIO_DATA = {
       ],
       techStack: ["React.js", "Vite", "JavaScript", "CSS", "Netlify"],
     },
+    // Third project
     {
       title: "Road Type Classification System",
       date: "Mar 2025",
@@ -120,18 +136,33 @@ export const PORTFOLIO_DATA = {
       ],
       techStack: ["Python", "Scikit-learn", "Pandas", "NumPy", "Streamlit"],
     },
+    // Fourth project
     {
-      title: "Real-Time Bus Tracking System",
-      date: "Aug 2025",
-      subtitle: "SIH 2026 Web Application",
-      repo: "manvendra47/SIH-2025",
-      link: "https://bus-tracking-system-final.vercel.app/",
+      title: "Real Time Fire Detection Model",
+      date: "April 2026",
+      subtitle: "Machine Learning Project",
+      repo: "manvendra47/Real_time_fire_detection_model",
       description:
-        "Developed a real-time bus tracking system with live GPS updates and route visualization.",
+        "Developed a real-time fire detection model using computer vision model yolo to enhance safety and emergency response.",
       features: [
-        "Used Firebase Realtime Database to handle concurrent location updates with low latency.",
+        "Implemented real-time fire detection using YOLO object detection model.",
       ],
-      techStack: ["JavaScript", "Firebase", "OpenStreetMap"],
+      techStack: ["Python", "OpenCV", "YOLO"],
+    },
+    // Fifth project
+    {
+      title: "Maze Solving Robot",
+      date: "Feb 2024",
+      subtitle: "Robotics Project",
+      repo: "manvendra47/Rat_in_a_maze_project",
+      description:
+        "Designed and built an autonomous maze-solving robot using ultrasonic sensors and Arduino. Implemented obstacle detection and navigation logic to enable the robot to traverse and escape a maze without manual intervention.",
+      features: [
+        "Autonomously navigates through a maze using ultrasonic sensor data.",
+        "Implements real-time obstacle detection and path decision-making.",
+        "Arduino-based control system programmed for efficient movement and navigation.",
+      ],
+      techStack: ["Arduino", "Arduino IDE", "Ultrasonic Sensors", "Embedded C++", "Robotics"],
     },
   ],
   achievements: [
